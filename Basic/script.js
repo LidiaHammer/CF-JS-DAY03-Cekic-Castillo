@@ -30,11 +30,35 @@
 // document.write('You are either ' + myAge + ' or ' + ++myAge + '.');
 
 // exercise basic three
-function ageCalculator(birthYear) {
-  var currentYear = new Date().getFullYear();
-  return currentYear - birthYear;
-}
-var myAge = ageCalculator(1991);
-console.log(myAge);
+// function ageCalculator(birthYear) {
+//   var currentYear = new Date().getFullYear();
+//   return currentYear - birthYear;
+// }
+// var myAge = ageCalculator(1991);
+// console.log(myAge);
 
-document.write('You are either ' + myAge + ' or ' + --myAge + '.');
+// document.write('You are either ' + myAge + ' or ' + --myAge + '.');
+
+// exercise basic four
+// function calculator(degree) {
+//   var result = degree * (Math.PI / 180);
+//   console.log(result);
+// }
+// calculator(90);
+
+// exercise basic five
+// function calculator(width, height, depth = 1) {
+//   return width * height * depth;
+// }
+// console.log(calculator(2, 7));
+// console.log(calculator(2, 5, 7));
+
+// exercise basic 6
+// function calculateProduct(array) {
+//   var sum = 1;
+//   for (var i = 0; i < array.length; i++) {
+//     sum = sum * array[i];
+//   }
+//   return sum;
+// }
+// console.log(calculateProduct([1, 3, 7, 10, 2]));
